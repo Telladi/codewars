@@ -1,0 +1,4 @@
+function check(a, x) {
+ return a.includes(x)
+}
+//поиск элемента в массиве(строгое сравнение)
