@@ -1,0 +1,6 @@
+function maps(x){
+let arr =  x.map(function(element){
+  return element * 2;
+})
+return arr
+}
