@@ -1,0 +1,10 @@
+function sumArray(array) {
+if (array == null ) {
+  return 0
+}else if(array.length <= 2){
+  return 0
+}else {
+  let compareFn = (a, b) => a - b
+ let total =  array.sort(compareFn).slice(1, -1)
+return total.reduce((a, b) => a + b, 0)
+}}
