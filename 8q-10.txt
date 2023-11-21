@@ -1,0 +1,5 @@
+//получение индекса элемента массива по строгому сравнению
+function findNeedle(haystack) {
+  let a = 'found the needle at position ' + haystack.indexOf('needle');
+  return a
+}
